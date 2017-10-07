@@ -16,7 +16,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "react": "16.0.0-beta.5",
+    "react": "16.0.0",
     "react-native": "0.49.2"
   },
   "devDependencies": {
@@ -26,7 +26,7 @@
     "jest": "21.2.1",
     "lint-staged": "4.2.3",
     "prettier": "1.7.4",
-    "react-test-renderer": "16.0.0-beta.5"
+    "react-test-renderer": "16.0.0"
   },
   "jest": {
     "preset": "react-native"
