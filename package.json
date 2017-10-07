@@ -1,7 +1,12 @@
 {
   "name": "ReactNativeSkeleton",
+  "description": "My own skeleton for react-native projects",
   "version": "0.0.1",
   "private": true,
+  "repository": {
+    "url": "github.com:patlux/react-native-skeleton.git",
+    "type": "git"
+  },
   "author": "Patrick Wozniak <patrick.wozniak@roompad.com>",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
