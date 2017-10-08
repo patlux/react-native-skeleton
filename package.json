@@ -11,6 +11,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
+    "jest-updateSnapshot": "jest --updateSnapshot",
     "watchman-del": "watchman watch-del $PWD ; watchman watch-project $PWD",
     "prettier": "prettier --write ./app/**/*.{js,json}",
     "prettier-diff": "prettier --list-different ./app/**/*.{js,json}",
@@ -38,7 +39,9 @@
     "react-test-renderer": "16.0.0"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "transformIgnorePatterns": ["node_modules/?!(react-native)"],
+    "setupFiles": ["./jest/setup.js"]
   },
   "lint-staged": {
     "*.{js,json}": ["prettier --write", "git add"]
