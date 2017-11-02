@@ -8,12 +8,14 @@ Use [react-native-rename](https://github.com/junedomingo/react-native-rename) to
 
 ## First steps
 
+```bash
   git clone github.com:patlux/react-native-skeleton.git
   mv react-native-skeleton <your-new-project-name>
   react-native-rename <your-new-project-name>
+```
 
 Change the name in `index.js` to your new project name.
-Go to `android/` and run `./gradlew wrapper`.
+Go to `android/` and run `gradle wrapper`.
 
 You need to change/remove the `KEYSTORE_PROPERTIES` in the `android/gradle.properties` file as you like.
 
@@ -40,7 +42,9 @@ The code will be formatted with [prettier](https://github.com/prettier/prettier)
 
 Run this in your `android/`-folder:
 
-  gradle wrapper
+```
+gradle wrapper
+```
 
 ## Contributions
 
