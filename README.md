@@ -6,7 +6,14 @@ This is my skeleton for my react-native projects. Have fun.
 
 Use [react-native-rename](https://github.com/junedomingo/react-native-rename) to rename this project.
 
-## Adjustments
+## First steps
+
+  git clone github.com:patlux/react-native-skeleton.git
+  mv react-native-skeleton <your-new-project-name>
+  react-native-rename <your-new-project-name>
+
+Change the name in `index.js` to your new project name.
+Go to `android/` and run `./gradlew wrapper`.
 
 You need to change/remove the `KEYSTORE_PROPERTIES` in the `android/gradle.properties` file as you like.
 
@@ -26,6 +33,14 @@ The code will be formatted with [prettier](https://github.com/prettier/prettier)
 ## TODO
 
 - Use [flow](https://github.com/facebook/flow)
+
+## Troubleshooting
+
+### Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+
+Run this in your `android/`-folder:
+
+  gradle wrapper
 
 ## Contributions
 
