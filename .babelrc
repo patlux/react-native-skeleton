@@ -4,5 +4,12 @@
   ],
   "plugins": [
     "babel-plugin-idx"
-  ]
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-remove-console"
+      ]
+    }
+  }
 }
