@@ -24,7 +24,7 @@
     "react-native": "0.50.3"
   },
   "devDependencies": {
-    "babel-eslint": "8.0.1",
+    "babel-eslint": "8.0.2",
     "babel-jest": "21.2.0",
     "babel-plugin-idx": "2.2.0",
     "babel-plugin-transform-remove-console": "6.8.5",
