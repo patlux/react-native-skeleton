@@ -9,8 +9,7 @@ Use [react-native-rename](https://github.com/junedomingo/react-native-rename) to
 ## First steps
 
 ```bash
-  git clone github.com:patlux/react-native-skeleton.git
-  mv react-native-skeleton <your-new-project-name>
+  git clone --depth 1 github.com:patlux/react-native-skeleton.git <your-new-project-name>
   react-native-rename <your-new-project-name>
 ```
 
